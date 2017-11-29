@@ -1,0 +1,17 @@
+{
+  "name": "nm-prune",
+  "version": "1.0.0",
+  "description": "This tool removes all redundant files like *.md, LICENSE, from node_modules folder",
+  "bin": {
+    "nm-prune": "./cli.js"
+  },
+  "main": "index.js",
+  "author": "Nikolay Kostyurin <jilizart@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "cli-table": "^0.3.1",
+    "pretty-bytes": "^4.0.2"
+  }
+}
